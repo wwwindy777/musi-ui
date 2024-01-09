@@ -1,6 +1,6 @@
 <template>
 	<div class="select-none">
-		<img :src="bg" class="wave" />
+<!--		<img :src="bg" class="wave" />-->
 		<div class="flex-c absolute right-5 top-3"></div>
 		<div class="login-container">
 			<div class="img">
@@ -33,8 +33,6 @@
 import { useThemeConfig } from '/@/stores/themeConfig';
 import { NextLoading } from '/@/utils/loading';
 import illustration from '/@/assets/login/login_bg.svg';
-import bg from '/@/assets/login/bg.png';
-import miniQr from '/@/assets/login/mini_qr.png';
 import { useI18n } from 'vue-i18n';
 import { formatAxis } from '/@/utils/formatTime';
 import { useMessage } from '/@/hooks/message';
