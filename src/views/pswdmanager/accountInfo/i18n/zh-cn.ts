@@ -1,0 +1,28 @@
+export default {
+   accountInfo: {
+        index: '#',
+        importaccountInfoTip: '导入账号表',
+        id: '主键',
+        accountType: '账号类型',
+        accountApp: '账号所属应用',
+        accountName: '用户名',
+        accountPw: '密码',
+        accountUrl: '网站链接',
+        accountRemark: '备注',
+        createTime: '创建时间',
+        updateBy: '修改者',
+        updateTime: '修改时间',
+        delFlag: '删除标志',
+        inputIdTip: '请输入主键',
+        inputAccountTypeTip: '请输入账号类型',
+        inputAccountAppTip: '请输入账号所属应用',
+        inputAccountNameTip: '请输入用户名',
+        inputAccountPwTip: '请输入密码',
+        inputAccountUrlTip: '请输入网站链接',
+        inputAccountRemarkTip: '请输入备注',
+        inputCreateTimeTip: '请输入创建时间',
+        inputUpdateByTip: '请输入修改者',
+        inputUpdateTimeTip: '请输入修改时间',
+        inputDelFlagTip: '请输入删除标志',
+    }
+}
